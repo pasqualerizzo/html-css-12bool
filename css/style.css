@@ -9,6 +9,42 @@
 }
 /* Header */
 
+.wrapper {
+    width: 100%;
+    border: 5px solid black;
+    padding: 20px;
+    color: white;
+}
+
+.box {
+    width: 100%;
+    border: 5px solid black;
+    padding: 20px;
+    color: white;
+}
+
+.wrapper .row {
+    text-align: center;
+}
+
+.wrapper .row > *{
+    background-color: blue;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+
+
+.wrapper .row .col-6 .row > * {
+    background-color: green;
+    border: 1px solid blue;
+}
+
+.box .row div:last-child {
+    background-color: blue;
+    border: 1px solid white;
+    padding: 20px;
+}
 
 
 
